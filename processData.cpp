@@ -9,7 +9,6 @@
 #include "listLib.h"
 
 //Mã yêu cầu 00: Danh sách mã yêu cầu trong tập tin events.txt
-
 template <class T>
 int event00(){
 	loadEvents("events.txt", L1List<ninjaEvent_t> &eList);
